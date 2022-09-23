@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:background="#2196F3"
     tools:context=".MainActivity">
+
+    <!--code dibawah ini untuk menampilkan tek login yang ada di atas-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/purple_500"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/editUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
     <!-- edit text ini untuk menampilkan box username   -->
     <EditText
         android:id="@+id/editUsername"
